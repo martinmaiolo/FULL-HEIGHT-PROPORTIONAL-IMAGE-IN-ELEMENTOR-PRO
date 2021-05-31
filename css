@@ -1,0 +1,11 @@
+selector, 
+selector .elementor-widget-container, 
+selector .elementor-image, 
+selector .elementor-image > a {
+    height: 100%;
+}
+selector .elementor-image img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 100%;
+}
